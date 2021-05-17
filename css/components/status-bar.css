@@ -1,0 +1,68 @@
+/* **************************** */
+/* 공통 화면에서 status bar */
+
+#status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+  background-color: rgb(251, 248, 214);
+  z-index: 1;
+}
+
+.status-bar_column {
+  width: 33%;
+}
+.status-bar_column:first-child span {
+  margin-right: 5px;
+  padding-left: 5px;
+}
+.status-bar_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar_column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+.fa-battery-full {
+  margin: 0px 5px;
+}
+
+/* **************************** */
+/* chat screen 에서 status bar */
+
+#status-bar-chat {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+  background-color: #abc1d1;
+  z-index: 10;
+}
+.status-bar_column-chat {
+  width: 33%;
+}
+.status-bar_column-chat:first-child span {
+  margin-right: 5px;
+  padding-left: 5px;
+}
+.status-bar_column-chat:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar_column-chat:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+.fa-battery-full-chat {
+  margin: 0px 5px;
+}

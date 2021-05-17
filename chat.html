@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat SeongHyeon - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div id="status-bar-chat">
+      <div class="status-bar_column-chat">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar_column-chat">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column-chat">
+        <span>110%</span>
+        <i class="fas fa-battery-full -chat"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header_column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header_column">
+        <h1 class="alt-header_title">SeongHyeon</h1>
+      </div>
+      <div class="alt-header_column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat_timestamp">
+        <span>Monday, May 17, 2021</span>
+      </div>
+      <div class="message-row">
+        <img src="file:///Users/seonghyeon/Desktop/kokoa-clone-2021/screenshot/myface.jpeg" />
+        <div class="message-row_content">
+          <span class="message_author">SeongHyeon</span>
+          <div class="message_info">
+            <span class="message_bubble">나한테 보내서 메모장 역할을 해야징!</span>
+            <span class="message_time">17:42</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row-own">
+        <div class="message-row_content">
+          <div class="message_info">
+            <span class="message_bubble">뭐야 무슨일이야? 배고파</span>
+            <span class="message_time">17:46</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply_column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-2x"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>모바일 최적화입니다. 화면이 너무 커요 ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/bca1400d1b.js" crossorigin="anonymous"></script>
+  </body>
+</html>
